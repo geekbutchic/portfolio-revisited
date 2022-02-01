@@ -2,13 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: rgb(16, 16, 80);
 }
 
 .navbar {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  background-color: rgb(103, 103, 221);
+  background-color: rgb(16, 16, 80);
   position: sticky;
   top: 0;
 }
@@ -22,5 +23,64 @@
 .navbar ul li {
   font-family: "Bodoni Moda", serif;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 20px 35px;
+  transition: all 0.5s ease;
+}
+
+.navbar ul li a:hover {
+  background-color: steelblue;
+  border-radius: 25px;
+  color: blue;
+  box-shadow: 0 0 5px white;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+/* HOME SECTION */
+
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: rgb(16, 16, 80);
+  margin-left: 50px;
+}
+
+.main {
+  display: flex;
+  color: white;
+}
+
+h1 {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+img {
+  border-radius: 50%;
+}
+
+h1 {
+    margin-left: 95px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+}
+
+p {
+    font-size: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
